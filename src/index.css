@@ -1,0 +1,105 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ body {
+    background-color: black;
+ }
+ .parent{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 15px;
+ }
+.card {
+   margin: 10px;
+   height: 300px;
+   width: 250px;
+   background-color: white;
+   padding: 25px 20px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.top {
+   display: flex;
+   justify-content: space-between;
+}
+img {
+   height: 31px;
+   border: 1px solid #80808033;
+   border-radius: 50%;
+}
+.top button {
+   display: flex;
+   align-items: center;
+   padding: 3px;
+   font-size: 10px;
+   background-color: white;
+   color: #808080c2;
+   border: 1px solid #80808033;
+   border-radius: 4px;
+}
+svg.bookmark {
+   height: 15px;
+   width: 18px;
+}
+.center {
+   margin-bottom: 5px;
+   flex: 1;
+   margin-top: 34px;
+}
+#part1 {
+   font-weight: bold;
+   font-size: 14px;
+}
+#part1 #date {
+   font-size: 7px;
+   color: #808080c2;
+   font-weight: 100;
+}
+.center h2 {
+   font-size: 18px;
+   margin-bottom: 7px;
+}
+#part3 {
+   display: flex;
+   gap: 6px
+}
+#part3 button {
+   padding: 3px 7px;
+   background-color: rgba(211, 211, 211, 0.834);
+   border: none;
+   font-size: 10px;
+   border-radius: 3px;
+}
+.bottom {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 10px;
+   border-top: 1px solid rgba(211, 211, 211, 0.834);
+}
+#price {
+   display: flex;
+   flex-direction: column;
+}
+#price span{
+   font-size: 9px;
+   color: #808080c2;
+   font-weight: 100;
+}
+#price h3{
+   font-size: 15px;
+   margin-bottom: 2px;
+}
+.bottom button {
+   background-color: black;
+   color: white;
+   border-radius: 3px;
+   padding: 6px 13px;
+   border: none;
+}
+
+
